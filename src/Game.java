@@ -86,6 +86,7 @@ public class Game implements ApplicationListener, InputProcessor {
         	renderAllCats();
         	font.draw(spriteBatch, "Swag: " + score, 10,20);
         	font.draw(spriteBatch, "Swagcats", 410,20);
+        	font.draw(spriteBatch, "Alex Spedding", 195,20);
 			spriteBatch.end();
         }
         
